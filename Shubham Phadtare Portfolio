@@ -1,9 +1,113 @@
-portfolio/
-│
-├── index.html      ✅ (MAIN WEBSITE FILE)
-├── style.css       ✅ (DESIGN / STYLES)
-│
-└── assets/         ✅ (OPTIONAL, for images)
-    └── thumbnails/
-        ├── project1.jpg
-        └── project2.jpg
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shubham Phadtare | Video Editor & Cinematographer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cinematic video editor & cinematographer working with brands and agencies.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Shubham Dnyaneshwar Phadtare</h1>
+    <h2>Video Editor & Cinematographer</h2>
+    <p>Cinematic visuals crafted for brands, agencies & stories.</p>
+    <div class="buttons">
+      <a href="#showreel" class="btn">Watch Showreel</a>
+      <a href="#contact" class="btn outline">Hire Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS -->
+<section class="projects">
+  <h2>Featured Work</h2>
+
+  <div class="project-grid">
+    <div class="project-card">
+      <img src="assets/thumbnails/project1.jpg" alt="">
+      <div class="overlay">
+        <h3>Brand Film</h3>
+        <span>Editor • Cinematographer</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="assets/thumbnails/project2.jpg" alt="">
+      <div class="overlay">
+        <h3>Cinematic Reel</h3>
+        <span>Cinematography</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWREEL -->
+<section class="showreel" id="showreel">
+  <h2>Showreel 2025</h2>
+  <div class="video-wrapper">
+    <iframe src="https://player.vimeo.com/video/YOUR_VIMEO_ID" frameborder="0" allowfullscreen></iframe>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="service">
+    <h3>Cinematography</h3>
+    <ul>
+      <li>Brand Films</li>
+      <li>Short Films</li>
+      <li>Visual Storytelling</li>
+    </ul>
+  </div>
+
+  <div class="service">
+    <h3>Editing</h3>
+    <ul>
+      <li>Narrative Editing</li>
+      <li>Reels & Commercials</li>
+      <li>Color & Sound</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>
+      I’m a video editor and cinematographer with a story-first mindset.
+      I collaborate with brands and agencies to create cinematic,
+      emotionally driven visuals.
+    </p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Have a project in mind?</h2>
+  <p>Let’s create something cinematic.</p>
+  <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Tell me about your project"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Shubham Phadtare</p>
+</footer>
+
+</body>
+</html>

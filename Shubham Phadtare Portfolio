@@ -1,0 +1,9 @@
+portfolio/
+│
+├── index.html      ✅ (MAIN WEBSITE FILE)
+├── style.css       ✅ (DESIGN / STYLES)
+│
+└── assets/         ✅ (OPTIONAL, for images)
+    └── thumbnails/
+        ├── project1.jpg
+        └── project2.jpg
